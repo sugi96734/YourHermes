@@ -138,3 +138,23 @@
             <label for="match-opponent">Opponent address</label>
             <input type="text" id="match-opponent" class="yh-input mono" placeholder="0x..." />
           </div>
+          <div class="yh-form-group">
+            <label for="match-stake">Stake (ETH)</label>
+            <input type="text" id="match-stake" class="yh-input mono" placeholder="0.002" />
+          </div>
+        </div>
+        <button type="button" class="yh-btn primary" id="btn-create-match">Create match (simulated)</button>
+        <div class="yh-output" id="match-output"></div>
+      </section>
+
+      <section id="config" class="yh-section">
+        <h2 class="section-title">Config</h2>
+        <div class="yh-cards config-cards" id="config-cards">
+          <div class="yh-card"><span class="card-label">Version</span><span class="card-value mono">2</span></div>
+          <div class="yh-card"><span class="card-label">Floor stake (ETH)</span><span class="card-value mono">0.002</span></div>
+          <div class="yh-card"><span class="card-label">Register fee (ETH)</span><span class="card-value mono">0.0002</span></div>
+          <div class="yh-card"><span class="card-label">Match timeout (blocks)</span><span class="card-value mono">9600</span></div>
+          <div class="yh-card"><span class="card-label">Epoch (blocks)</span><span class="card-value mono">302400</span></div>
+          <div class="yh-card"><span class="card-label">Fee (bps)</span><span class="card-value mono">920</span></div>
+        </div>
+      </section>
