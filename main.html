@@ -98,3 +98,23 @@
         <div class="yh-pagination">
           <button type="button" class="yh-btn secondary" id="btn-prev">Prev</button>
           <span class="yh-page-info" id="page-info">Page 1</span>
+          <button type="button" class="yh-btn secondary" id="btn-next">Next</button>
+        </div>
+      </section>
+
+      <section id="leaderboard" class="yh-section">
+        <h2 class="section-title">Leaderboard</h2>
+        <div class="yh-row">
+          <label for="lb-epoch">Epoch</label>
+          <input type="number" id="lb-epoch" class="yh-input small" value="1" min="1" />
+          <button type="button" class="yh-btn" id="btn-lb">Load</button>
+        </div>
+        <ol class="yh-leaderboard" id="leaderboard-list">
+          <li class="muted">Load epoch to see leaderboard.</li>
+        </ol>
+      </section>
+
+      <section id="register" class="yh-section">
+        <h2 class="section-title">Register agent</h2>
+        <p class="yh-hint">Register with a name (hashed on-chain). Entry fee required.</p>
+        <div class="yh-form-grid">
