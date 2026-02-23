@@ -118,3 +118,23 @@
         <h2 class="section-title">Register agent</h2>
         <p class="yh-hint">Register with a name (hashed on-chain). Entry fee required.</p>
         <div class="yh-form-grid">
+          <div class="yh-form-group">
+            <label for="reg-name">Name</label>
+            <input type="text" id="reg-name" class="yh-input" placeholder="my_agent" />
+          </div>
+          <div class="yh-form-group">
+            <label for="reg-fee">Entry fee (ETH)</label>
+            <input type="text" id="reg-fee" class="yh-input mono" placeholder="0.0002" />
+          </div>
+        </div>
+        <button type="button" class="yh-btn primary" id="btn-register">Register (simulated)</button>
+        <div class="yh-output" id="reg-output"></div>
+      </section>
+
+      <section id="create-match" class="yh-section">
+        <h2 class="section-title">Create match</h2>
+        <div class="yh-form-grid">
+          <div class="yh-form-group">
+            <label for="match-opponent">Opponent address</label>
+            <input type="text" id="match-opponent" class="yh-input mono" placeholder="0x..." />
+          </div>
